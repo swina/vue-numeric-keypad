@@ -28,8 +28,8 @@ onInput     : Function - to get the number pressed from the keypad
 (optional)
 
 ```
-onDelete    : Function - to delete the last number input from the keypad
-onReset     : Function - to reset the number
+onDelete    : Function - to delete the last digit from the sequence input from the keypad
+onReset     : Function - to reset the sequence
 show        : Boolean - Show the keypad
 close       : String - Close button (empty no button is showed)
 keypadClass : String - your specific class (see styling)

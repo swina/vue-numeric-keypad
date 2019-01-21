@@ -3,6 +3,12 @@
 > numeric-keypad is a light component to add a numeric keypad to your vue project.
 > No dependencies. Works with any framework (Vuetify, ecc.)
 
+## Install
+
+```
+npm install @bit/swina.vue-components.components.numeric-keypad
+```
+
 ### Usage
 
 You need to define at least the onInput function in your template to get the key pressed from the keypad and use it in your data.

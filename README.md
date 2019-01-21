@@ -9,6 +9,10 @@
 npm install @bit/swina.vue-components.components.numeric-keypad
 ```
 
+### Demo
+
+Demo [CodeSandbox](https://codesandbox.io/s/l2ovzz34m7)
+
 ### Usage
 
 You need to define at least the onInput function in your template to get the key pressed from the keypad and use it in your data.

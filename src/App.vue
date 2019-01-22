@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="app">
     Number is : {{ number }}<br />
     <a href="#" @click="showKeypad = !showKeypad;"><h4>Toggle Keypad</h4></a>
     <numericpad
@@ -36,3 +36,13 @@ export default {
   }
 };
 </script>
+<style>
+#app {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: left;
+  color: #2c3e50;
+  margin-top: 20px;
+}
+</style>
